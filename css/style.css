@@ -1,0 +1,202 @@
+@font-face {
+     font-family: OpenSans;
+     src: url('../assets/fonts/OpenSansRegular.ttf');
+}
+
+@font-face {
+     font-family: Quicksand;
+     src: url('../assets/fonts/QuicksandRegular.ttf');
+}
+
+/* Tags */
+/* Corpo */
+article {
+	position: absolute;
+	top: 100%;
+	width: auto;
+	height: auto;
+	background-color: #ffffff;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Ajuste de fontes */
+h1 {
+	letter-spacing: .3rem;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: Quicksand;
+}
+
+p, a {
+	font-family: OpenSans;
+}
+
+p {
+	text-indent: 2em;
+	text-align: justify;
+}
+
+small.price {
+	font-size: 14pt;
+}
+
+small {
+	font-size: 12pt;
+}
+
+/* Ids */
+#overflow {	
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+
+.background .fundo {
+	filter: brightness(90%);
+	background: rgba(20, 31, 64, 0.8);
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.background {
+	background: url('../assets/img/background.jpg');
+	position: fixed;
+	z-index: -1;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+/* Fim Tags */
+
+/* Classes */
+.centerY {
+	transform: translateY(-50%);
+}
+
+.centerX {
+	transform: translateX(-50%);
+}
+
+.centerXY {
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.containerPolitica {
+	width:50%;
+	height:50%;
+	background:#fff;
+	position: fixed;
+	z-index:100;
+	top: 50%;
+	left: 50%;
+	border-radius: 10px;
+}
+
+
+.img-adjust {
+	width: 100%;
+    left: 50%;
+	top: 50%;
+}
+
+.img-logo-adjust {
+    left: 50%;
+	top: 50%;
+}
+
+.eco-adjust {
+	margin-bottom: 3%;
+}
+
+.photo-adjust {
+	position: absolute;
+	width: 18%;
+	left: 75%;
+	transform: translateY(-50%);
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+}
+
+.point-adjust {
+	padding-top: 56px;
+}
+
+.title-edit {
+	position: fixed;
+	left: 50%;
+	top: 82%;
+	transform: translateX(-50%);
+	color: #ffffff;
+	text-align: center;
+	font-size: 5vw;
+}
+
+.elipse {
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.title-white {
+	color: #ffffff;
+	font-size: 45px;
+	padding-top: 3vw;
+	padding-bottom: 1vw;
+}
+
+.depoimentos-padding {
+	padding: 4% 6% 2% 6%;
+	background-color: #ffffff;
+}
+
+.input-adjust {
+	width: 100%;
+	padding: 2%;
+	border: 1px solid #000;
+	margin-bottom: 2%;
+}
+
+.btn-adjust {
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,0.8);
+	padding: 1%;
+	font-size: 14pt;
+}
+
+.btn-adjust:hover {
+	background-color: rgb(238, 238, 238);
+	border: 1px solid black;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.resp-iframe {
+	position: absolute;
+	top: 1%;
+	left: 1%;
+	width: 98%;
+	height: 98%;
+	border: 0;
+}
+
+.shadow {
+	box-shadow: 0px 2px 8px rgba(00,00,00,0.2);
+}
+
+.no-indent {
+	text-indent: 0em;
+}
+
+.icon {
+	width: 12%;
+}
+
+.toast-body{
+	color: #fff;
+}
